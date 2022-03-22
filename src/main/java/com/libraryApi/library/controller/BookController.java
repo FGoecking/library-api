@@ -37,4 +37,9 @@ public class BookController {
         bookService.deleteByName(bookName);
         return new ResponseEntity<>(HttpStatus.OK);
     }
+
+    @GetMapping("welcome")
+    public ResponseEntity<String> welcome(){
+        return new ResponseEntity<>("Welcome",HttpStatus.OK);
+    }
 }
