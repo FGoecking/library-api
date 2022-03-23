@@ -1,1 +1,1 @@
-web: java $JAVA_OPTS -cp target/classes:target/dependency/* com.libraryApi.library
+web: java $JAVA_OPTS -cp target/classes:target/dependency/* com.libraryApi.LibraryApplication
