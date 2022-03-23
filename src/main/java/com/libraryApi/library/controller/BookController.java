@@ -38,7 +38,7 @@ public class BookController {
         return new ResponseEntity<>(HttpStatus.OK);
     }
 
-    @GetMapping("welcome")
+    @GetMapping("/welcome")
     public ResponseEntity<String> welcome(){
         return new ResponseEntity<>("Welcome",HttpStatus.OK);
     }
