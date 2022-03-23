@@ -1,1 +1,1 @@
-web: java $JAVA_OPTS -cp target/classes:target/dependency/* libraryApi.src.main.java.com.libraryApi.library.LibraryApplication
+web: java -jar target/java-getting-started-1.0.jar
